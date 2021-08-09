@@ -131,22 +131,22 @@ aside .sidebar-actions {
      background-color:var(--filter--yellow); 
 }
 
-.dashboard-building-block #dashboard-building-text {
-    color: var(--light-white);
+.dashboard-building-block .dashboard-text {
     font-size: 18px;
     font: bold;
     position: relative;
     left: 20px;
+    color: var(--light-white);
 }
 
-.dashboard-building-block #dashboard-building-background {
+.dashboard-building-block .dashboard-background {
     height: 144px; 
     width: 144px; 
     opacity: 20%;
     left: 10%;
 }
 
-.dashboard-building-block #dashboard-building-number {
+.dashboard-building-block .dashboard-number {
   color: var(--light-white); 
   font-size: 48px; 
   position: absolute;
@@ -158,19 +158,30 @@ aside .sidebar-actions {
     display: flex;
     flex: 1;
     margin-right: 20px;
+    position: relative;
     background-color:var(--filter--green); 
   }
-  
-  
-.dashboard-info-block {
-    display: flex;
-    flex: 1;
-    color: var(--dark-black);
-    background-color:var(--light-white); 
-  }
-  
 
+.dashboard-idle-block .dashboard-idle-text {
+    font-size: 18px; 
+    font: bold; 
+    position: relative; 
+    left: 20px;
+    color: var(--light-white);
+}
 
+.dashboard-idle-block #dashboard-idle-background {
+    height: 144px; 
+    width: 144px; 
+    opacity: 20%;
+}
+
+.dashboard-idle-block .dashboard-idle-number {
+    color: #f3f3f3; 
+    font-size: 48px; 
+    position: absolute; 
+    right: 10%;
+}
 
 .main-dashboard .main-dashboard-idle {
     flex:33%;
