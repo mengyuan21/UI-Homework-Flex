@@ -67,6 +67,7 @@ aside .sidebar-actions {
 .actions-item {
     display: flex;
     flex: 1;
+    height: 20px;
     align-items: center;
     color: var(--light-white);
     text-decoration-line: none;
@@ -76,6 +77,21 @@ aside .sidebar-actions {
     color: var(--action--hover);
     background-color: var(--light-black);
 }
+
+.actions-icon {
+    flex: 20%;
+    size: 10px;
+}
+
+.actions-dashboard-icon:hover {
+    -webkit-filter: drop-shadow(0px 0px 0px #00B4CF);
+    size: 20px;
+}
+
+.actions-dashboard-text {
+    flex: 80%
+}
+
 
 .sidebar-history {
     display: flex;
