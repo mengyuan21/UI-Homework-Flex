@@ -81,8 +81,29 @@ aside .sidebar-actions {
     display: flex;
     flex-direction: column;
     flex: 1;
+    justify-content: left ;
 }
 
+
+#history-title {
+    margin-left: 10px;
+    margin-top: 60% ;
+    font-size: 24px;
+    color: #ccc;
+}
+
+#history-list {
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+    font-size: 12px;
+    color: #999;
+    margin-bottom: 3px;
+}
+
+.history-statement:hover {
+    color: var(--light-green-blue);
+}
 
 .main-content {
     display: flex;
