@@ -69,6 +69,7 @@ aside .sidebar-actions {
     flex: 1;
     height: 20px;
     align-items: center;
+    position: relative;
     color: var(--light-white);
     text-decoration-line: none;
 }
@@ -79,8 +80,10 @@ aside .sidebar-actions {
 }
 
 .actions-icon {
-    flex: 20%;
+    left: 10%;
     size: 10px;
+    position: absolute;
+    left: 5px;
 }
 
 .actions-dashboard-icon:hover {
@@ -88,8 +91,9 @@ aside .sidebar-actions {
     size: 20px;
 }
 
-.actions-dashboard-text {
-    flex: 80%
+.actions-text {
+    position: relative; 
+    left: 17%;
 }
 
 
