@@ -295,7 +295,8 @@ aside .sidebar-actions {
     display: flex;
     flex:1;
     margin-bottom: 15px;
-    background-color:palevioletred ;
+    color: var(--dark-black);
+    background-color:var(--light-white) ;
 }
 
 .thoughtworks-footer {
