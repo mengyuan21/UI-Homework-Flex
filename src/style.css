@@ -345,6 +345,7 @@ aside .sidebar-actions {
     top:5px;
     margin-top: 8px;
     margin-right: 15px;
+    color: var(--light-green-blue);
 }
 
 .firstline-left #firstline-condition {
@@ -358,14 +359,137 @@ aside .sidebar-actions {
 
 .item-first-line .firstline-right {
     flex: 50%;
-    margin-top: 8px;
-
+    display: flex;
+    margin-top: 10px;
 }
 
+.firstline-right #right-info-icon {
+    height: 16px;
+}
+
+.firstline-right #firstline-info  {
+    top:5px;
+    margin-right: 15px;
+}
+
+.firstline-right #right-file-icon {
+    height: 16px;
+}
+
+.firstline-right #firstline-files {
+    top:5px;
+    margin-right: 15px;
+}
 
 .list-item-right .item-second-line {
     flex: 50%;
+    display: flex;
+    width: 100%;
 }
+
+.item-second-line .secondline-left {
+    flex: 50%;
+    align-self: center;
+    display: flex;
+    margin-bottom:0;
+    width: 100%;
+}
+
+.secondline-left .button-second-line-plus {
+    font-size: 18px;
+    color: var(--light-white);
+    border: 0px;
+    background-color: var(--light-green-blue);
+}
+  
+.secondline-left .button-second-line-plus:hover {
+    font-size: 18px;
+    background-color: var(--dark-green-blue);
+}
+
+.button-second-line-delete {
+    border: 0px;
+    font-size: 14px;
+    display: flex;
+    border-color: var(--light-white);
+    background-color: var(--dark-white);
+    color: var(--dark-black);
+}
+  
+.button-second-line-delete:hover {
+    background-color: rgb(161, 160, 160);
+}
+  
+.secondline-button-delete {
+    height: 12px;
+    margin-top: 2px;
+}
+
+#secondline-icon-deny {
+    height: 12px;
+    margin-right: 5px;
+    margin-left: 3px;
+}
+
+.button-second-line-deny{
+    display: flex; 
+    right: 10%;
+    bottom: 0px;
+    border: 0px;
+    font-size: 14px;
+    height: 25px;
+    width: 70px;
+    border-radius:0%;
+    text-align: center;
+    align-items: center;
+    color: var(--light-white);
+    background-color: var(--light-green-blue);
+}
+  
+.button-second-line-deny:hover {
+    background-color: var(--dark-green-blue);
+}
+
+.item-second-line .secondline-right {
+    flex: 50%;
+    display: flex;
+    align-self: center;
+    justify-content: flex-end;
+    margin-right: 5%;
+    width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 .thoughtworks-footer {
     display: flex;
