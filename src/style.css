@@ -118,45 +118,89 @@ aside .sidebar-actions {
 .main-content .main-dashboard {
     display: flex;
     margin-bottom: 10px;
-    flex: 20%;
+    flex: 17%;
     background-color: var((--dark-white));
 }
 
-.main-dashboard .main-dashboard-building {
-    flex:1;
-    margin-right: 35px;
-    background-color: peachpuff;
+
+.dashboard-building-block {
+     display: flex;
+     flex: 1;
+     position: relative;
+     margin-right: 20px;
+     background-color:var(--filter--yellow); 
 }
 
+.dashboard-building-block #dashboard-building-text {
+    color: var(--light-white);
+    font-size: 18px;
+    font: bold;
+    position: relative;
+    left: 20px;
+}
+
+.dashboard-building-block #dashboard-building-background {
+    height: 144px; 
+    width: 144px; 
+    opacity: 20%;
+    left: 10%;
+}
+
+.dashboard-building-block #dashboard-building-number {
+  color: var(--light-white); 
+  font-size: 48px; 
+  position: absolute;
+  right: 5%;
+}
+
+  
+.dashboard-idle-block {
+    display: flex;
+    flex: 1;
+    margin-right: 20px;
+    background-color:var(--filter--green); 
+  }
+  
+  
+.dashboard-info-block {
+    display: flex;
+    flex: 1;
+    color: var(--dark-black);
+    background-color:var(--light-white); 
+  }
+  
+
+
+
 .main-dashboard .main-dashboard-idle {
-    flex:1;
+    flex:33%;
     margin-right: 35px;
     background-color: plum;
 }
 
 .main-dashboard .main-dashboard-info {
-    flex:1;
+    flex:33%;
     background-color: salmon;
 }
 
 .main-content .main-filter {
     display: flex;
     margin-bottom: 10px;
-    flex: 10%;
+    flex: 7%;
     background-color: olive;
 }
 
 .main-content .main-list {
     display: flex;
     flex-direction: column;
-    flex: 70%;
+    flex: 76%;
     background-color: var(--dark-white);
 }
 
 .main-list .list-item {
     display: flex;
     flex:1;
-    margin-bottom: 5px;
+    margin-bottom: 15px;
     background-color:palevioletred ;
 }
 
