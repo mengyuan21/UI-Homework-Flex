@@ -59,13 +59,22 @@ html, body {
 aside .sidebar-actions {
     display: flex;
     flex: 1;
+    height: 100%;
     flex-direction: column;
-    padding: 10px;
     margin-bottom: 20px;
 }
 
-a .actions-item {
-    align-self: center;
+.actions-item {
+    display: flex;
+    flex: 1;
+    align-items: center;
+    color: var(--light-white);
+    text-decoration-line: none;
+}
+
+.actions-item:hover {
+    color: var(--action--hover);
+    background-color: var(--light-black);
 }
 
 .sidebar-history {
