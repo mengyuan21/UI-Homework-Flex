@@ -261,9 +261,27 @@ aside .sidebar-actions {
     background-color: rgb(212, 207, 207);
 }
 
-.main-filter .table-icon {
-    flex: 64%;
-    background-color: red;
+.main-filter .filter-icons {
+    flex: 60%;
+    position: relative;
+    text-align: end;
+    top: 30%;
+    right: 10px;
+    height: 20px;
+}
+
+.filter-icons .filter-form-icon {
+    height: 19px;
+    position: relative;
+    right: 40px;
+}
+
+
+.filter-icons .filter-list-icon {
+    height: 21px;
+    position: relative;
+    right: 10px;
+    
 }
 
 .main-content .main-list {
