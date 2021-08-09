@@ -208,15 +208,42 @@ aside .sidebar-actions {
   }
 
 
-
-
-
-
 .main-content .main-filter {
+    flex: 7%;
     display: flex;
     margin-bottom: 10px;
-    flex: 7%;
-    background-color: olive;
+    position: relative;
+    background-color: var(--light-white);
+}
+
+.main-filter .filter-button {
+    flex: 10%;
+    position: relative;
+    border: 5px;
+    border-right: 1px solid var(--dark-white);
+    background-color: var(--light-white);
+}
+
+.filter-button:hover {
+    border-bottom: solid var(--light-green-blue);
+}
+
+.main-filter .filter-input {
+    display: flex;
+    flex: 15%;
+    left: 10%;
+    position: relative;
+    top: 20%;
+    height: 60%;
+    width: 80%;
+    border: 0px;
+    min-width: 60px;
+    background-color: rgb(212, 207, 207);
+}
+
+.main-filter .table-icon {
+    flex: 64%;
+    background-color: red;
 }
 
 .main-content .main-list {
