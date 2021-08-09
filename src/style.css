@@ -39,9 +39,12 @@ html, body {
 .main-body {
     flex: 85%;
     display: flex;
+    height: 100%;
     width: 70%;
     justify-self: center;
     align-self: center;
+    overflow: auto;
+    position: relative;
     /* align-items: center; */
     background-color: var(--dark-white);
 }
@@ -50,6 +53,7 @@ html, body {
     display: flex;
     flex-direction: column;
     justify-self: center;
+    height: auto;
     width: 20%;
     color: var(--light-white);
     overflow: hidden;
@@ -168,6 +172,7 @@ aside .sidebar-actions {
     left: 10%;
 }
 
+
 .dashboard-building-block .dashboard-number {
   color: var(--light-white); 
   font-size: 48px; 
@@ -233,6 +238,7 @@ aside .sidebar-actions {
     display: flex;
     margin-bottom: 10px;
     position: relative;
+    min-height: 60px;
     background-color: var(--light-white);
 }
 
@@ -292,11 +298,73 @@ aside .sidebar-actions {
 }
 
 .main-list .list-item {
-    display: flex;
     flex:1;
+    display: flex;
     margin-bottom: 15px;
+    max-height: 80px;
+    overflow: auto;
     color: var(--dark-black);
     background-color:var(--light-white) ;
+}
+
+.list-item .list-icon {
+    flex:20%;
+    size: 80px;
+    padding: 10px;
+}
+
+
+.list-item .list-item-right {
+    flex: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+
+
+.list-item-right .item-first-line {
+    size: 16px;
+    flex: 50%;
+    width: 100%;
+    display: flex;
+}
+
+.item-first-line .firstline-left {
+    flex: 50%;
+    display: flex;
+}
+
+.firstline-left #left-icon1 {
+    height: 16px;
+    margin-top: 10px;
+}
+
+.firstline-left #firstline-labtop {
+    top:5px;
+    margin-top: 8px;
+    margin-right: 15px;
+}
+
+.firstline-left #firstline-condition {
+    margin-top: 8px;
+    height: 20px;
+    text-align: center;
+    width: 14%;
+    background-color: var(--filter--green);
+} 
+
+
+.item-first-line .firstline-right {
+    flex: 50%;
+    margin-top: 8px;
+
+}
+
+
+.list-item-right .item-second-line {
+    flex: 50%;
 }
 
 .thoughtworks-footer {
