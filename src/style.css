@@ -47,11 +47,33 @@ html, body {
 }
 
 .main-body aside {
+    display: flex;
+    flex-direction: column;
     justify-self: center;
     width: 20%;
     color: var(--light-white);
+    overflow: hidden;
     background-color: var(--dark-black);
 }
+
+aside .sidebar-actions {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+a .actions-item {
+    align-self: center;
+}
+
+.sidebar-history {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+}
+
 
 .main-content {
     display: flex;
