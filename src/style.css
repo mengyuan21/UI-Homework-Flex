@@ -346,25 +346,35 @@ aside .sidebar-actions {
 
 .main-filter .filter-icons {
     flex: 60%;
+    display: flex;
+    justify-content: end;
     position: relative;
-    text-align: end;
-    top: 30%;
-    right: 10px;
+    margin-top: 8px;
     height: 20px;
 }
 
 .filter-icons .filter-form-icon {
-    height: 19px;
-    position: relative;
-    right: 40px;
+    flex: 50%;
+    fill: #515151;
+    justify-content: end;
+    margin-left: 30%;
+    /* position: relative; */
+    /* right: 40px; */
+}
+
+.filter-form-icon:hover {
+    fill: var(--action--hover);
 }
 
 
 .filter-icons .filter-list-icon {
-    height: 21px;
-    position: relative;
-    right: 10px;
-    
+    flex: 50%;
+    size: 10px;
+    fill: #515151;
+}
+
+.filter-list-icon:hover {
+    fill: var(--action--hover);
 }
 
 .main-content .main-list {
