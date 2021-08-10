@@ -76,16 +76,57 @@ html, body {
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
  }
 
- .dropdown-content a {
+
+.dropdown-profile {
+    display: flex;
+}
+
+.dropdown-profile .profile-icon {
+    flex: 30%;
+    height: 18px;
+    width: 18px;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+ .dropdown-content .dropdown-profile a{
+    flex: 70%;
+    text-align: start;
     color: var(--dark-black);
     padding: 12px 16px;
     text-decoration: none;
     display: block;
 }
 
-.dropdown-content a:hover {
+.dropdown-signout {
+    display: flex;
+}
+
+.dropdown-signout .signout-icon {
+    flex: 30%;
+    height: 18px;
+    width: 18px;
+    margin-top: 12px;
+    margin-left: 20px;
+}
+
+.dropdown-content .dropdown-signout a{
+    flex: 70%;
+    text-align: start;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    color: var(--dark-black);
+}
+
+.dropdown-profile:hover {
     background-color: #EFEFEF;
 }
+
+.dropdown-signout:hover {
+    background-color: #EFEFEF;
+}
+
 
 .user-signin:hover .dropdown-content {
     display: block;
