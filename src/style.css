@@ -215,12 +215,9 @@ aside .sidebar-actions {
      flex: 1;
      position: relative;
      margin-right: 20px;
-     background-color:var(--filter--yellow); 
+     background-color: #FF9A2A; 
 }
 
-.dashboard-building-block:hover {
-    
-}
 
 .dashboard-building-block .dashboard-text {
     font-size: 18px;
@@ -459,6 +456,7 @@ aside .sidebar-actions {
     height: 50%;
     text-align: center;
     width: 14%;
+    color: var(--light-white);
     background-color: var(--filter--green);
 } 
 
