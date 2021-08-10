@@ -297,12 +297,27 @@ aside .sidebar-actions {
     flex: 15%;
     left: 10%;
     position: relative;
-    top: 20%;
-    height: 60%;
+    top: 25%;
+    height: 50%;
     width: 80%;
     border: 0px;
     min-width: 60px;
+    background: url("img/search.svg") no-repeat 16px 16px;
     background-color: rgb(212, 207, 207);
+}
+
+.filter-input img {
+    height: 20px; 
+    width:20px;
+    margin-top: 4%; 
+    margin-left: 2%;
+}
+
+.filter-input input {
+    width: 90%;
+    border: 0px;
+    background-color: rgb(212, 207, 207);
+
 }
 
 .main-filter .filter-icons {
