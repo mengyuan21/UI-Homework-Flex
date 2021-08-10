@@ -346,20 +346,19 @@ aside .sidebar-actions {
 
 .main-filter .filter-icons {
     flex: 60%;
-    display: flex;
-    justify-content: end;
+    align-items: center;
     position: relative;
     margin-top: 8px;
     height: 20px;
 }
 
 .filter-icons .filter-form-icon {
-    flex: 50%;
-    fill: #515151;
+    width: 40px;
     justify-content: end;
     margin-left: 30%;
-    /* position: relative; */
-    /* right: 40px; */
+    fill: #515151;
+    position: relative;
+    left: 40%;
 }
 
 .filter-form-icon:hover {
@@ -368,8 +367,10 @@ aside .sidebar-actions {
 
 
 .filter-icons .filter-list-icon {
-    flex: 50%;
+    width: 40px;
     size: 10px;
+    position: relative;
+    left: 50%;
     fill: #515151;
 }
 
