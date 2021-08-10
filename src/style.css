@@ -18,6 +18,8 @@ html, body {
   height: 100%;
   width: 100%;
   margin: 0;
+  font-family: Arial, Helvetica, sans-serif;
+  color: var(--dark-black);
 }
 
 .container {
@@ -157,6 +159,7 @@ aside .sidebar-actions {
 
 #history-list {
     display: flex;
+    margin-bottom: 2px;
     flex-direction: column;
     margin-top: 0;
     font-size: 12px;
@@ -212,6 +215,20 @@ aside .sidebar-actions {
     left: 10%;
 }
 
+
+.dashboard-building-block .dashboard-background:hover {
+    max-height: 144px; 
+    max-width: 144px;
+    min-height: 50px;
+    min-width: 50px;
+    opacity: 20%;
+    left: 10%;
+    animation: mymove 2s infinite;
+}
+
+@keyframes mymove {
+    100% {transform: rotate(360deg);}
+  }
 
 .dashboard-building-block .dashboard-number {
   color: var(--light-white); 
@@ -278,7 +295,7 @@ aside .sidebar-actions {
     display: flex;
     margin-bottom: 10px;
     position: relative;
-    min-height: 60px;
+    min-height: 50px;
     background-color: var(--light-white);
 }
 
@@ -400,6 +417,7 @@ aside .sidebar-actions {
     top:5px;
     margin-top: 8px;
     margin-right: 15px;
+    font-weight: bold;
     color: var(--light-green-blue);
 }
 
@@ -415,6 +433,7 @@ aside .sidebar-actions {
 .item-first-line .firstline-right {
     flex: 50%;
     display: flex;
+    font-size: 14px;
     margin-top: 10px;
 }
 
@@ -467,12 +486,12 @@ aside .sidebar-actions {
     font-size: 14px;
     display: flex;
     border-color: var(--light-white);
-    background-color: var(--dark-white);
+    background-color: #EFEFEF;
     color: var(--dark-black);
 }
   
 .button-second-line-delete:hover {
-    background-color: rgb(161, 160, 160);
+    background-color: var(--dark-white);
 }
   
 .secondline-button-delete {
@@ -492,7 +511,7 @@ aside .sidebar-actions {
     bottom: 0px;
     border: 0px;
     font-size: 14px;
-    height: 25px;
+    height: 30px;
     width: 70px;
     border-radius:0%;
     text-align: center;
@@ -515,10 +534,8 @@ aside .sidebar-actions {
 }
 
 .thoughtworks-footer {
-    height: 8%;
-    /* flex: 3%; */
+    height: 7%;
     display: flex;
-    /* margin-top: 3px; */
     box-shadow: 0px 0px 5px rgb(194, 193, 193); 
     flex-direction: column;
 }
@@ -535,8 +552,7 @@ aside .sidebar-actions {
 .thoughtworks-footer .footer-number {
     flex: 80%;
     text-align: right;
+    margin-top: 0;
     padding-right: 2%;
-    padding-bottom: 1%;
-    /* height: 80%; */
     background-color: var(--dark-white);
 }
