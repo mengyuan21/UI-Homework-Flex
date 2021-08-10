@@ -125,16 +125,20 @@ aside .sidebar-actions {
     background-color: var(--light-black);
 }
 
+
+
 .actions-icon {
     left: 10%;
-    size: 10px;
+    width: 20px;
+    height: 20px;
     position: absolute;
     left: 5px;
+    overflow: hidden;
+    fill: #ffffff;
 }
 
-.actions-dashboard-icon:hover {
-    -webkit-filter: drop-shadow(0px 0px 0px #00B4CF);
-    size: 20px;
+.actions-item:hover .actions-icon {
+    fill: var(--action--hover);
 }
 
 .actions-text {
@@ -198,6 +202,10 @@ aside .sidebar-actions {
      background-color:var(--filter--yellow); 
 }
 
+.dashboard-building-block:hover {
+    
+}
+
 .dashboard-building-block .dashboard-text {
     font-size: 18px;
     font: bold;
@@ -215,8 +223,7 @@ aside .sidebar-actions {
     left: 10%;
 }
 
-
-.dashboard-building-block .dashboard-background:hover {
+.dashboard-building-block:hover .dashboard-background {
     max-height: 144px; 
     max-width: 144px;
     min-height: 50px;
