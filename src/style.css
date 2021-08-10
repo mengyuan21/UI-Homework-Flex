@@ -441,12 +441,12 @@ aside .sidebar-actions {
     display: flex;
 }
 
-.firstline-left #left-icon1 {
+.firstline-left .left-icon1 {
     height: 16px;
     margin-top: 10px;
 }
 
-.firstline-left #firstline-labtop {
+.firstline-left .firstline-labtop {
     top:5px;
     margin-top: 8px;
     margin-right: 15px;
@@ -454,7 +454,7 @@ aside .sidebar-actions {
     color: var(--light-green-blue);
 }
 
-.firstline-left #firstline-condition {
+.firstline-left .firstline-condition {
     margin-top: 8px;
     height: 50%;
     text-align: center;
@@ -470,20 +470,20 @@ aside .sidebar-actions {
     margin-top: 10px;
 }
 
-.firstline-right #right-info-icon {
+.firstline-right .right-info-icon {
     height: 16px;
 }
 
-.firstline-right #firstline-info  {
+.firstline-right .firstline-info  {
     top:5px;
     margin-right: 15px;
 }
 
-.firstline-right #right-file-icon {
+.firstline-right .right-file-icon {
     height: 16px;
 }
 
-.firstline-right #firstline-files {
+.firstline-right .firstline-files {
     top:5px;
     margin-right: 15px;
 }
