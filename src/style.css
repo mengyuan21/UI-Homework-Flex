@@ -35,6 +35,8 @@ html, body {
     max-height: 100px;
     justify-content: center;
     background-color:white;
+    /* margin-bottom: 3px; */
+    box-shadow: 0px 0px 5px rgb(194, 193, 193); 
 }
 
 .header-cruise .header-logo {
@@ -512,41 +514,29 @@ aside .sidebar-actions {
     width: 100%;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .thoughtworks-footer {
+    height: 8%;
+    /* flex: 3%; */
     display: flex;
-    flex: 5%;
-    justify-content: center;
+    /* margin-top: 3px; */
+    box-shadow: 0px 0px 5px rgb(194, 193, 193); 
+    flex-direction: column;
+}
+
+.thoughtworks-footer .footer-text {
+    flex: 20%;
+    min-height: 25px;
+    text-align: center;
+    margin-top: 0px;
+    /* height: 20%; */
     background-color: var(--light-white);
+}
+
+.thoughtworks-footer .footer-number {
+    flex: 80%;
+    text-align: right;
+    padding-right: 2%;
+    padding-bottom: 1%;
+    /* height: 80%; */
+    background-color: var(--dark-white);
 }
