@@ -84,7 +84,7 @@ html, body {
 }
 
 .dropdown-content a:hover {
-    background-color: #f1f1f1
+    background-color: #EFEFEF;
 }
 
 .user-signin:hover .dropdown-content {
@@ -309,7 +309,7 @@ aside .sidebar-actions {
   }
   
 .dashboard-info-block #table-number {
-    font-size: 18px;
+    font-size: 20px;
   }
 
 
@@ -456,7 +456,7 @@ aside .sidebar-actions {
 
 .firstline-left #firstline-condition {
     margin-top: 8px;
-    height: 20px;
+    height: 50%;
     text-align: center;
     width: 14%;
     background-color: var(--filter--green);
@@ -588,5 +588,6 @@ aside .sidebar-actions {
     text-align: right;
     margin-top: 0;
     padding-right: 2%;
+    color: #8b8989;
     background-color: var(--dark-white);
 }
