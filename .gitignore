@@ -5,3 +5,5 @@ src/**/und/*
 src/**/maps.txt
 src/**/renames.txt
 .vscode
+
+.idea

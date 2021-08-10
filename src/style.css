@@ -257,6 +257,8 @@ aside .sidebar-actions {
     font-size: 12px;
     color: #999;
     margin-bottom: 3px;
+
+    //出现了两次 margin-bottom
 }
 
 .history-statement:hover {
@@ -308,18 +310,18 @@ aside .sidebar-actions {
     left: 10%;
 }
 
-.dashboard-building-block:hover .dashboard-background {
+.dashboard-background {
     max-height: 144px; 
     max-width: 144px;
     min-height: 50px;
     min-width: 50px;
     opacity: 20%;
     left: 10%;
-    animation: mymove 2s infinite;
+    animation: mymove 2s infinite linear;
 }
 
 @keyframes mymove {
-    100% {transform: rotate(360deg);}
+    100% {transform: rotate(180deg);}
   }
 
 .dashboard-building-block .dashboard-number {
@@ -340,7 +342,8 @@ aside .sidebar-actions {
 
 .dashboard-idle-block .dashboard-idle-text {
     font-size: 18px; 
-    font: bold; 
+    font: bold;
+    //不应该直接给font=bold
     position: relative; 
     left: 20px;
     color: var(--light-white);
@@ -431,6 +434,7 @@ aside .sidebar-actions {
     min-width: 60px;
     background: url("img/search.svg") no-repeat 16px 16px;
     background-color: rgb(212, 207, 207);
+    /*可以结合到一起写*/
 }
 
 .filter-input img {
@@ -447,6 +451,7 @@ aside .sidebar-actions {
 
 }
 
+/*这里布局很奇怪，在页面上用元素选择器看也很奇怪，建议可以再多了解了解flex的一些布局*/
 .main-filter .filter-icons {
     flex: 60%;
     align-items: center;
